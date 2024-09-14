@@ -1,12 +1,12 @@
 # plm-model-comparison
 Comparing novel Protein Language Models
 
-## Necessary Files: 
+## $${\color{blue}Necessary Files: }$$
 PHROGs annotation table:
 > .tsv: https://storage.googleapis.com/plm-model-comparison/PHROG_index.tsv
 > .csv: https://storage.googleapis.com/plm-model-comparison/EFAM_embed/PHROG_index.csv
 
-## $${\color{blue}Blue}$$ PHROG Embedding:
+## $${\color{blue}PHROG Embedding: }$$
 ### Necessary Files: 
 * The PHROGs annotation table (.tsv format)
 * PHROGs fasta files are present in https://github.com/pikanaeri/Extracting-3Di-Embeddings-from-Protein-Sequences/tree/main/FAA_phrog; files can also be found under the Fasta Files category at https://phrogs.lmge.uca.fr/
@@ -17,12 +17,12 @@ Code for extracting the embeddings for each model is present in the directory *e
 Code for creating the embedding figures for each model is present in the directory *phrog-embedding-figures*
 > PHROGS averaged embeddings figures present in https://console.cloud.google.com/storage/browser/plm-model-comparison/phrog-embedding-figures
 
-## Trained Model Performances on PHROGs: 
+##  $${\color{blue}Trained Model Performances on PHROGs: }$$
 ### Necessary Files: 
 ### Code and Data Availability: 
 PHROGs trained models present in https://console.cloud.google.com/storage/browser/plm-model-comparison in their respective folders, labeled models
 
-## Trained Model Performances on EFAM: 
+##  $${\color{blue}Trained Model Performances on EFAM: }$$
 ### Necessary Files: 
 * Final_Super_Condensed_Annotations-updated_efam.tsv present in https://storage.googleapis.com/plm-model-comparison/EFAM_embed/Final_Super_Condensed_Annotations-updated_efam.tsv
 ### Code and Data Availability: 
