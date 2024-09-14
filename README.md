@@ -1,5 +1,6 @@
 # plm-model-comparison
 Comparing novel Protein Language Models
+The procedures below are heavily based off of the procedures in https://www.nature.com/articles/s41564-023-01584-8. 
 
 PHROGs annotation table:
 > .tsv: https://storage.googleapis.com/plm-model-comparison/PHROG_index.tsv
@@ -20,8 +21,10 @@ Code for creating the embedding figures for each model is present in the directo
 
 ##  Trained Model Performances on PHROGs: 
 ### Necessary Files: 
+* splits_01092023.pkl present in https://storage.googleapis.com/plm-model-comparison/phrog-performance-files/splits_01092023.pkl
 ### Code and Data Availability: 
-PHROGs trained models present in https://console.cloud.google.com/storage/browser/plm-model-comparison in their respective folders, labeled models
+Code for training the PHROGs classifier and calculating the precision, recall and F1 scores for each model are present in the directory *phrog-performance*
+> PHROGs trained models present in https://console.cloud.google.com/storage/browser/plm-model-comparison in their respective folders, labeled models
 
 ##  Trained Model Performances on EFAM: 
 ### Necessary Files: 
