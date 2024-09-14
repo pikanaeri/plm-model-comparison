@@ -1,7 +1,7 @@
 # plm-model-comparison
 Comparing novel Protein Language Models
 
-## $${\color{blue}Necessary Files: }$$
+## $${\color{blue}Necessary\sFiles: }$$
 PHROGs annotation table:
 > .tsv: https://storage.googleapis.com/plm-model-comparison/PHROG_index.tsv
 > .csv: https://storage.googleapis.com/plm-model-comparison/EFAM_embed/PHROG_index.csv
